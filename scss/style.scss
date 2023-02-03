@@ -1,0 +1,316 @@
+@import 'config';
+@import 'button';
+@import 'utilities';
+
+
+body{
+    background-color: #fff;
+    font-weight: $font-weight-1;
+    font-family: $font-stash;
+    color: #333;
+    overflow: auto;
+}
+
+.showcase{
+    margin: .8rem .3rem;
+}
+.top__section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+    img{
+        width: 30%;
+    }
+
+    button{
+        background: transparent;
+        text-decoration: none;
+        padding: .4rem 1rem;
+        border: 1px $primary-color-2 solid;
+        color: $primary-color-2;
+        border-radius: 1rem;
+        font-size: 12px;
+    }
+   
+}
+
+.build__up{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+
+    h1{
+        text-align: center;
+        color: $neutral-color-1;
+        font-weight: $font-weight-3;
+        font-family: $font-stash;
+        margin: 0 1rem;
+    }
+
+    p{
+        text-align: center;
+        margin: 1.5rem 1rem;
+    }
+
+}
+.free{
+    display: grid;
+    gap: 3rem;
+
+    button{
+        background: $primary-color-1;
+        color: #fff;
+        padding: 1rem 2rem;
+        margin-left: 3rem;
+        margin-right: 5rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 1.5rem;
+        border: 1px $primary-color-2 solid;
+    }
+
+    img{
+        margin-top:3rem;
+        margin-left: 2rem;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
+
+.break__down{
+    display: grid;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+
+    .first__group{
+        display: grid;
+        gap: .5rem;
+        img{
+            width: 15%;
+        }
+        p{
+            font-size: 40px;
+            font-weight: $font-weight-3;
+        }
+        .sub{
+            font-size: 15px;
+            color: $neutral-color-1;
+            font-weight: $font-weight-1;
+            opacity: 80%;
+        }
+    }
+
+    .second__group{
+        display: grid;
+        gap: .5rem;
+        img{
+            width: 15%;
+        }
+        p{
+            font-size: 40px;
+            font-weight: $font-weight-3;
+        }
+        .sub__number{
+            font-size: 15px;
+            color: $neutral-color-1;
+            font-weight: $font-weight-1;
+            opacity: 80%;
+        }
+    }
+}
+
+.main__show{
+    background-color: $neutral-color-2;
+
+    .grow{
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+        font-weight: $font-weight-3;
+        color: $neutral-color-1;
+    }
+
+    .generate{
+        padding-bottom: 3rem;
+        text-align: center;
+        margin: 0 2rem;
+        color: $neutral-color-1;
+    }
+}
+
+.flowing{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    width: 70%;
+}
+
+.mainn__show{
+    margin-bottom: 6rem;
+    .conversations{
+        text-align: center;
+        font-weight: $font-weight-3;
+        color: $neutral-color-1;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+    .sub__convo{
+        text-align: center;
+        font-weight: $font-weight-1;
+        color: $neutral-color-1;
+        margin: 0 2rem;
+    }
+}
+
+.subb__show{
+    background: $neutral-color-2;
+
+    .grow{
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+        font-weight: $font-weight-3;
+        color: $neutral-color-1;
+    }
+
+    .generate{
+        padding-bottom: 3rem;
+        text-align: center;
+        margin: 0 2rem;
+        color: $neutral-color-1;
+    }
+}
+
+.build{
+    margin-top: 6rem;
+    margin-bottom: 15rem;
+    display: grid;
+    gap: 1rem;
+
+    p{
+        text-align: center;
+        font-size: 30px;
+        color: $neutral-color-1;
+    }
+
+    button{
+        text-decoration: none;
+        background: $primary-color-2;
+        color: #fff;
+        margin: 0 5rem;
+        padding: .5rem 0;
+        text-align: center;
+        border-radius: 2rem;
+        border: 1px $primary-color-2 solid;
+        font-size: 15px;
+    }
+}
+
+.back__ground{
+    background: $neutral-color-1;
+    color: #fff;
+
+    .newsletter{
+        padding-top: 4rem;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+
+        .news{
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: $font-weight-3;
+            padding-bottom: 1rem;
+        }
+
+        .newletter{
+            font-weight: $font-weight-1;
+            font-size: 16px;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .form{
+        display: grid;
+        gap: .5rem;
+        margin-bottom: 3rem;
+
+        input{
+            margin: 0 1.5rem;
+            padding: 1rem;
+            border-radius: .5rem;
+            border: 1px #fff solid;
+        }
+
+        button{
+            text-align: center;
+            padding-right: 1.5rem;
+            padding-top: .6rem;
+            padding-bottom: .6rem;
+            color: #fff;
+            text-decoration: none;
+            background: $primary-color-2;
+            margin-top: .3rem;
+            margin-left: 9rem;
+            margin-right: 1.5rem;
+            border: 1px $primary-color-2 solid;
+            box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .finale{
+        img{
+            margin-left: 1.5rem;
+            width: 50%;
+        }
+
+        p{
+            margin-left: 1.5rem;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+        }
+    }
+    .class{
+        display: grid;
+        gap: 1rem;
+        .contact{
+            margin-left: 1.5rem;
+            padding-bottom: .5rem;
+            display: flex;
+            gap: 1rem;
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .icon{
+        display: flex;
+        gap: 1rem;
+        margin-left: 1.5rem;
+        justify-content: flex-start;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .fa-facebook{
+            background: #fff;
+            color: #000;
+            padding: .1rem;
+        }
+
+        .fa-twitter{
+            background: #fff;
+            color: #000;
+            padding: .1rem;
+        }
+    }
+
+}
+
+.attribution{
+    text-align: center;
+    margin: 1rem
+}
+
+@import 'desktop';

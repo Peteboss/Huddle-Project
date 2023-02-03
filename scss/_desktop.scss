@@ -1,0 +1,112 @@
+@media(min-width: 800px){
+    .build__up{
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+
+        p{
+            margin: 0 19rem;
+        }
+    }
+
+    .free{
+        button{
+            margin: 0 35rem;
+        }
+
+        img{
+            margin-left: 13rem;
+            width: 60%;
+        }
+    }
+
+    .break__down{
+        display: flex;
+        gap: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    .main__show{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .merger{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .subb__show{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .build{
+        button{
+            margin: 0 35rem;
+        }
+    }
+
+    .back__ground{
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-bottom: 3rem;
+
+        .cover{
+            width: 60%;
+
+            .form{
+                display: flex;
+
+                input{
+                    width: 50%;
+                    margin-right: .3rem;
+                }
+                button{
+                    margin-left: .3rem;
+                    padding-left: 1.5rem;
+                }
+            }
+        }
+
+        .covers{
+            width: 60%;
+            img{
+                width: 20%;
+            }
+        }
+        .contact{
+            img{
+                width: 5%;
+            }
+        }
+    }
+    
+    .icon{
+        display: flex;
+        gap: .5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+
+        img{
+            background: transparent;
+        }
+    }
+}
